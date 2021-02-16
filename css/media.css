@@ -6,6 +6,362 @@
 
     @media (min-width: 1200px) and (max-width: 1500px) {
    
+        body{
+            margin:auto;
+            padding: auto;
+            background-color: #DBF9F9;
+        }
+        
+        .section{
+            background-color: #DBF9F9;
+            background-image: url("img/group1.png"), url("img/web3.png");
+          
+          }
+        
+            header {
+              background-image: url("img/group1.png"), url("img/web3.png");
+              background:  linear-gradient(135.17deg, #008080 0%, #314646 101.24%);
+              background-size: center;
+          background-repeat: no-repeat;
+          height: 210vh;
+          clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+        
+        
+        }
+        
+        .navbar-brand{
+        width: 42px;
+        margin-left: auto;
+        border-radius: nullpx;
+        font-family: Poppins !important;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        
+        }
+        
+        .custom-toggler .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        
+        .custom-toggler .navbar-toggler-icon{
+          color:#FEAE51;
+        }
+        
+        .navbar .active{
+          color:#FEAE51;
+        }
+        
+        .navbar-dark .active {
+          color:#ffffff
+        }
+        
+           
+          .navbar-nav .nav-item .nav-link .active{
+            color:#FEAE51;
+          }
+             
+        
+        
+        
+        .navbar-nav .nav-item .nav-link{
+        display: block;  
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0px;
+        
+        color: #ffffff;
+        padding:10px;
+        
+        }
+        .navbar-nav .nav-item .active{
+            color:#FEAE51;
+        }
+        
+        .navbar-nav .nav-item .contact-us{
+           background-color: #FEAE51;;
+        width: 120px;
+        height: 48px;
+        left: 1160px;
+        top: 30px;
+        
+        background: #FEAE51;
+        border-radius: 10px;
+        }
+        
+        .mil-innovation{
+        
+        
+        margin-left: 8.3%;
+        margin-top: 161px;
+        
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 40px;
+        /* or 167% */
+        
+        text-align: justify;
+        
+        color: rgba(255, 255, 255, 0.7);
+        
+        height: 320px;
+        width: 674px;
+        left: 214px;
+        
+        
+        
+        }
+        
+        .vector{
+         
+        margin-left: 8.3%;
+        margin-right: 8.3%;
+        margin-top: 14.55%;
+        
+        height: 216.6666717529297px;
+        width: 271.0356750488281px;
+        left: 26.99072265625px;
+        top: 54.1669921875px;
+        border-radius: 0px;
+        
+        
+        }
+        
+        .banner-image{
+          height: 444px;
+        width: 979px;
+        margin-left: 8.3%;
+        margin-top: 82px;
+        border-radius: 20px;
+        
+        }
+        .section{
+          background-color: #DBF9F9;
+        }
+        
+        .our-team{
+         
+        margin-left: auto;
+        width: 204px;
+        border-radius: nullpx;
+        
+        color: rgba(5, 68, 68, 0.7);
+        font-family: Manrope;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: bolder;
+        line-height: 49px;
+        letter-spacing: 0px;
+        
+        
+        }
+        
+        .images{
+        align-items: center;
+           align-self: center;
+          margin-top:10%;
+         margin-left: 60px;
+         
+         
+        }
+        
+        .section-image{
+            background: linear-gradient(135.17deg, #008080 0%, #314646);
+        border-radius: 22.3521px;
+        margin-top:20vh;
+        width: 100%;
+        height: 442.13px;
+        
+        
+        }
+        
+        .image-circle1{
+         
+        position: absolute; 
+        top: -45px;
+        left: 357px; 
+        width: 89px;
+        margin-left: auto;
+        float: right;
+        
+        
+        
+        }
+        
+        .image-circle2{
+          position: absolute; 
+        top: -45px;
+        right: 357px; 
+          width: 89px;
+        margin-right: auto;
+        float: left;
+        }
+        
+        .devops{
+            font-family: Manrope;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: justified;
+        color: #FFFFFF;
+        padding-right: 90px;
+        padding-left: 20px;
+        justify-content: center;
+        
+        
+        }
+        
+        .devs{
+           margin-top:30px;
+        width: 106.79px;
+        height: 49.67px;
+        /*left: 1124.17px;*/
+        top: 2361.58px;
+        
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22.3521px;
+        line-height: 50px;
+        /* identical to box height, or 222% */
+        
+        text-align: justify;
+        
+        color: rgba(255, 255, 255, 0.5);
+        
+        }
+        
+        .divide{
+        width: 100%;
+        height: 4px;
+        
+        
+        /* MIL GRADIENT */
+        
+        background: linear-gradient(135.17deg, #008080 0%, #314646 101.24%);
+        
+        }
+        
+        
+        /* footer begins here*/
+        footer .section1{
+            background-color: #DBF9F9;
+        }
+        footer .brand1{
+           color: linear-gradient(135.17deg, #008080 0%, #314646 101.24%);
+          color:#008080;
+            height: 44px;
+            margin-top: 50px;
+            font-family: Poppins !important;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 29px;
+            line-height: 43px;
+            text-align: center;
+            /* identical to box height */
+            
+            /* MIL GRADIENT */
+           
+        }
+        
+        .footer-nav .nav-item .nav-link{
+        
+        
+        height: 25px;
+        
+        top: 124px;
+        
+        /* M 18 */
+        
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+        
+        
+        /* Gray 1 */
+        color: #333333;
+        }
+        
+        .footer-social{
+            background: #008080;
+        
+        }
+        
+        
+        .copyright {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: 55px;
+            font-family: Manrope;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+            background-color: #008080; }
+            .copyright span,
+            .copyright a {
+              color: #ffffff;
+              -webkit-transition: all 0.3s linear;
+              -o-transition: all 0.3s linear;
+              transition: all 0.3s linear; }
+            .copyright a:hover {
+              color:#007bff; }
+          
+          .copyright-menu ul {
+            text-align: right;
+            margin: 0; }
+          
+          .copyright-menu li {
+            display: inline-block;
+            padding-left: 20px; }
+        
+            .copyright-menu li a {
+                background-color: #00000015;
+                border-radius: 100%;
+            }
+          
+          .back-to-top {
+            position: relative;
+            z-index: 2; }
+            .back-to-top .btn-dark {
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+              padding: 0;
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              background: #2e2e2e;
+              border-color: #2e2e2e;
+              display: none;
+              z-index: 999;
+              -webkit-transition: all 0.3s linear;
+              -o-transition: all 0.3s linear;
+              transition: all 0.3s linear; }
+              .back-to-top .btn-dark:hover {
+                cursor: pointer;
+                background: #FA6742;
+                border-color: #FA6742; }
+        
+        /* For responsiveness*/
+        
     }
     
     
@@ -267,7 +623,7 @@
                         align-items: center;
                            align-self: center;
                           margin-top:10%;
-                         margin-left: 14px;
+                         margin-left: 19px;
                          
                         }
 
@@ -290,8 +646,68 @@
             
     }
 
-   
+/* FOLD */   
+    @media only screen 
+    and (min-device-width: 280px) 
+    and (max-device-width: 653px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
 
+        header {
+    
+            height: 150vh;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+          
+          
+          }
+          
+               
+                .banner-image{
+                    height: 280px;
+                  width: 200px;
+                  margin-left: 8.3%;
+                  margin-top: 90px;
+                  border-radius: 20px;
+                  
+                  }
+        
+                  .mil-innovation{
+        
+                    margin-left: 8.3%;
+                    margin-right: 8.3%;
+                    margin-top: 80px;
+                    font-weight: bold;
+                text-align: center;
+                    font-size: 15px;
+                    line-height: 25px;
+                     
+                    
+                    }
+                    .images{
+                        align-items: center;
+                           align-self: center;
+                          margin-top:10%;
+                         margin-left: 0px;
+                         
+                        }
+    
+                        .devops{
+                            font-family: Manrope;
+                        font-size: 26px;
+                        font-style: normal;
+                        padding-right: 50px;
+                        padding-left: 0px;
+                        
+                        }
+    
+                        /*footer begins here */
+                        .copyright-menu li {
+                            display: inline-block;
+                            padding-left: 0px;
+                            margin-top: 20px;
+                            
+                         }
+            
+    }    
 
 
 
@@ -339,7 +755,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
                     align-items: center;
                        align-self: center;
                       margin-top:10%;
-                     margin-left: 35px;
+                     margin-left: 45px;
                      
                     }
 
@@ -347,7 +763,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
                         font-family: Manrope;
                     font-size: 30px;
                     font-style: normal;
-                    padding-right: 70px;
+                    padding-right: 90px;
                     padding-left: 0px;
                     
                     }
@@ -477,6 +893,73 @@ and (device-height: 640px) and
                     font-size: 30px;
                     font-style: normal;
                     padding-right: 44px;
+                    padding-left: 0px;
+                    
+                    }
+
+                    /*footer begins here */
+                    .copyright-menu li {
+                        display: inline-block;
+                        padding-left: 0px;
+                        margin-top: 20px;
+                        
+                     }
+    
+}
+
+
+
+/* SURFACE DUO */
+
+
+@media only screen 
+and (min-device-width: 540px) 
+and (max-device-width: 720px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+    header {
+    
+        height: 120vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+      
+      
+      }
+      
+           
+            .banner-image{
+                height: 280px;
+              width: 399px;
+              margin-left: 8.3%;
+              margin-top: 4px;
+              border-radius: 20px;
+              
+              }
+    
+              .mil-innovation{
+    
+                margin-left: 8.3%;
+                margin-right: 8.3%;
+                margin-top: 80px;
+                font-weight: bold;
+            text-align: center;
+                font-size: 15px;
+                line-height: 30px;
+                 
+                
+                }
+                .images{
+                    align-items: center;
+                       align-self: center;
+                      margin-top:10%;
+                     margin-left: 105px;
+                     
+                    }
+
+                    .devops{
+                        font-family: Manrope;
+                    font-size: 30px;
+                    font-style: normal;
+                    padding-right: 294px;
                     padding-left: 0px;
                     
                     }
