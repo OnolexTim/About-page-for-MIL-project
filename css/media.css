@@ -1,0 +1,523 @@
+
+
+/*header responsive
+
+    * Normal desktop :1200px. */
+
+    @media (min-width: 1200px) and (max-width: 1500px) {
+   
+    }
+    
+    
+    /* Normal desktop :992px. */
+    
+    @media (min-width: 992px) and (max-width: 1200px) {
+
+        
+    header {
+    
+    height: 110vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+  
+  
+  }
+  
+       
+        .banner-image{
+            height: 444px;
+          width: 800px;
+          margin-left: 8.3%;
+          margin-top: 170px;
+          border-radius: 20px;
+          
+          }
+
+          .mil-innovation{
+
+            margin-left: 8.3%;
+            margin-top: 126px;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+             
+            
+            }
+
+            .images{
+                align-items: center;
+                   align-self: center;
+                  margin-top:10%;
+                 margin-left: 30px;
+                
+                 
+                }
+
+                .image-circle1{
+ 
+                    position: absolute; 
+                    top: -40px;
+                    left: 270px; 
+                    width: 89px;
+                    margin-left: auto;
+                    float: right;
+                    
+                    
+                    
+                    }
+                    
+                    .image-circle2{
+                      position: absolute; 
+                    top: -40px;
+                    right: 270px; 
+                      width: 89px;
+                    margin-right: auto;
+                    float: left;
+                    }
+    }
+    
+    
+    /* Tablet desktop :768px. */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        header {
+    
+            height: 129vh;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+          
+          
+          }
+          
+               
+                .banner-image{
+                    height: 444px;
+                  width: 600px;
+                  margin-left: 8.3%;
+                  margin-top: 170px;
+                  border-radius: 20px;
+                  
+                  }
+        
+                  .mil-innovation{
+        
+                    margin-left: 8.3%;
+                    margin-right: 8.3%;
+                    margin-top: 118px;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 40px;
+                     
+                    
+                    }
+
+                    .images{
+                        align-items: center;
+                           align-self: center;
+                          margin-top:10%;
+                         margin-left: 0px;
+                        
+                         
+                        }
+                        
+                        .section-image{
+                            background: linear-gradient(135.17deg, #008080 0%, #314646);
+                        border-radius: 22.3521px;
+                        margin-top:20vh;
+                        width: 100%;
+                        height: 442.13px;
+                        
+                        
+                        }
+                        
+                        .devops{
+                            font-family: Manrope;
+                        font-size: 30px;
+                        font-style: normal;
+                        padding-right: 19px;
+                        padding-left: 0px;
+                        
+                        }
+                        
+                        .devs{
+                           margin-top:30px;
+                        width: 106px;
+                        height: 49.67px;
+                        /*left: 1124.17px;*/
+                        top: 2361.58px;
+                        
+                        }
+            }
+            
+            
+    
+    
+     /* Small devices (landscape phones, 576px and up) */
+
+
+@media only screen and (max-width: 768px) and (orientation : portrait)  { 
+}
+
+  /* Large Mobile :480px. */
+    
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+     header {
+    
+            height: 159vh;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+          
+          
+          }
+          
+               
+                .banner-image{
+                    height: 280px;
+                  width: 240px;
+                  margin-left: 8.3%;
+                  margin-top: 30px;
+                  border-radius: 20px;
+                  
+                  }
+        
+                  .mil-innovation{
+        
+                    margin-left: 8.3%;
+                    margin-right: 8.3%;
+                    margin-top: 80px;
+                    font-weight: bold;
+                text-align: center;
+                    font-size: 15px;
+                    line-height: 23px;
+                     
+                    
+                    }
+                    .images{
+                        align-items: center;
+                           align-self: center;
+                          margin-top:10%;
+                         margin-left: 14px;
+                         
+                        }
+
+                        .devops{
+                            font-family: Manrope;
+                        font-size: 30px;
+                        font-style: normal;
+                        padding-right: 17px;
+                        padding-left: 0px;
+                        
+                        }
+
+                        /*footer begins here */
+                        .copyright-menu li {
+                            display: inline-block;
+                            padding-left: 0px;
+                            margin-top: 20px;
+                            
+                         }
+   
+}
+    
+    /* small mobile :320px. */
+    
+    @media (max-width: 767px) {
+    }
+    
+    
+    
+    @media only screen and (max-width: 320px) and (orientation : portrait) {
+        /* PORTRAIT:
+        Apple iPhone 3, 4, 5
+        HTC Nexus One, Evo
+        LG Optimus
+        Nokia N900
+        Nokia Lumia 1020
+        Samsung Galaxy S, S2 */
+       
+        header {
+    
+            height: 159vh;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+          
+          
+          }
+          
+               
+                .banner-image{
+                    height: 250px;
+                  width: 240px;
+                  margin-left: 8.3%;
+                  margin-top: 30px;
+                  border-radius: 20px;
+                  
+                  }
+        
+                  .mil-innovation{
+        
+                    margin-left: 8.3%;
+                    margin-right: 8.3%;
+                    margin-top: 80px;
+                    font-weight: bold;
+                text-align: center;
+                    font-size: 13px;
+                    line-height: 23px;
+                     
+                    
+                    }
+                    .images{
+                        align-items: center;
+                           align-self: center;
+                          margin-top:10%;
+                         margin-left: 14px;
+                         
+                        }
+
+                        .devops{
+                            font-family: Manrope;
+                        font-size: 30px;
+                        font-style: normal;
+                        padding-right: 17px;
+                        padding-left: 0px;
+                        
+                        }
+
+                        /*footer begins here */
+                        .copyright-menu li {
+                            display: inline-block;
+                            padding-left: 0px;
+                            margin-top: 20px;
+                            
+                         }
+            
+    }
+
+   
+
+
+
+
+
+ /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+    header {
+    
+        height: 140vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+      
+      
+      }
+      
+           
+            .banner-image{
+                height: 280px;
+              width: 270px;
+              margin-left: 8.3%;
+              margin-top: 30px;
+              border-radius: 20px;
+              
+              }
+    
+              .mil-innovation{
+    
+                margin-left: 8.3%;
+                margin-right: 8.3%;
+                margin-top: 80px;
+                font-weight: bold;
+            text-align: center;
+                font-size: 15px;
+                line-height: 25px;
+                 
+                
+                }
+                .images{
+                    align-items: center;
+                       align-self: center;
+                      margin-top:10%;
+                     margin-left: 35px;
+                     
+                    }
+
+                    .devops{
+                        font-family: Manrope;
+                    font-size: 30px;
+                    font-style: normal;
+                    padding-right: 70px;
+                    padding-left: 0px;
+                    
+                    }
+
+                    /*footer begins here */
+                    .copyright-menu li {
+                        display: inline-block;
+                        padding-left: 0px;
+                        margin-top: 20px;
+                        
+                     }
+        
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/*--------galaxy s5------*/
+@media screen and (device-width: 360px) 
+and (device-height: 640px) and 
+(-webkit-device-pixel-ratio: 3){
+
+    header {
+    
+        height: 140vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+      
+      
+      }
+      
+           
+            .banner-image{
+                height: 280px;
+              width: 270px;
+              margin-left: 8.3%;
+              margin-top: 30px;
+              border-radius: 20px;
+              
+              }
+    
+              .mil-innovation{
+    
+                margin-left: 8.3%;
+                margin-right: 8.3%;
+                margin-top: 80px;
+                font-weight: bold;
+            text-align: center;
+                font-size: 15px;
+                line-height: 25px;
+                 
+                
+                }
+                .images{
+                    align-items: center;
+                       align-self: center;
+                      margin-top:10%;
+                     margin-left: 35px;
+                     
+                    }
+
+                    .devops{
+                        font-family: Manrope;
+                    font-size: 30px;
+                    font-style: normal;
+                    padding-right: 44px;
+                    padding-left: 0px;
+                    
+                    }
+
+                    /*footer begins here */
+                    .copyright-menu li {
+                        display: inline-block;
+                        padding-left: 0px;
+                        margin-top: 20px;
+                        
+                     }
+        
+}
+
+/* Target Portrait and Landscape */
+@media screen 
+  and (device-width: 412px) 
+  and (device-height: 823px) 
+  and (-webkit-device-pixel-ratio: 3.5) 
+  and (orientation: portrait) {
+
+    header {
+    
+        height: 120vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+      
+      
+      }
+      
+           
+            .banner-image{
+                height: 280px;
+              width: 270px;
+              margin-left: 8.3%;
+              margin-top: 30px;
+              border-radius: 20px;
+              
+              }
+    
+              .mil-innovation{
+    
+                margin-left: 8.3%;
+                margin-right: 8.3%;
+                margin-top: 80px;
+                font-weight: bold;
+            text-align: center;
+                font-size: 15px;
+                line-height: 25px;
+                 
+                
+                }
+                .images{
+                    align-items: center;
+                       align-self: center;
+                      margin-top:10%;
+                     margin-left: 35px;
+                     
+                    }
+
+                    .devops{
+                        font-family: Manrope;
+                    font-size: 30px;
+                    font-style: normal;
+                    padding-right: 44px;
+                    padding-left: 0px;
+                    
+                    }
+
+                    /*footer begins here */
+                    .copyright-menu li {
+                        display: inline-block;
+                        padding-left: 0px;
+                        margin-top: 20px;
+                        
+                     }
+    
+}
+
+
+@media screen 
+  and (device-width: 412px) 
+  and (device-height: 823px) 
+  and (-webkit-device-pixel-ratio: 3.5) 
+  and (orientation: portrait) {
+
+    .images{
+        align-items: center;
+           align-self: center;
+          margin-top:10%;
+         margin-left: 35px;
+         
+        }
+
+        .devops{
+            font-family: Manrope;
+        font-size: 30px;
+        font-style: normal;
+        padding-right: 504px;
+        padding-left: 0px;
+        
+        }
+
+}
+
+
+
+
+
