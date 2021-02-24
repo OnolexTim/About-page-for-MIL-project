@@ -91,14 +91,14 @@
     and (-webkit-min-device-pixel-ratio: 2) 
     and (orientation: Portrait) { 
 
-        header {
+        header .header {
     
-            height:0px; 
+            height:7600px; 
           
           }
           
                 .banner-image{
-                    height: 444px;
+                    height: 100%;
                   width: 600px;
                   margin-left: 8.3%;
                   margin-top: 100px;
@@ -333,7 +333,7 @@
 
         header {
     
-            height: 100px;
+            height: 120vh;
             clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
           
           
@@ -341,9 +341,12 @@
           
                
                 .banner-image{
-                    height: 180px;
+                    position: relative;
+                    bottom: 60px;
+                    left: 10px;
+                    height: 5%;
                   width: 880px;
-                  margin-left: 8.3%;
+                  margin-left: 9%;
                   margin-top: 2px;
                   border-radius: 20px;
                   
@@ -361,11 +364,11 @@
                      
                     
                     }
-                    .images{
+                    .images, .images3{
                         align-items: center;
                            align-self: center;
                           margin-top:10%;
-                         margin-left: 200px;
+                         margin-left: 20px;
                          
                         }
     
@@ -382,13 +385,7 @@
                              
                             }
     
-                            .images3{
-                                align-items: center;
-                                   align-self: center;
-                                  margin-top:10%;
-                                 margin-left: 10px;
-                                 
-                                }
+                            
     
                         .devops{
                             font-family: Manrope;
@@ -397,6 +394,99 @@
                         padding-right: 90px;
                         padding-left: 0px;
                         
+                        }
+    
+                        /*footer begins here */
+                        .copyright-menu li {
+                            display: inline-block;
+                            padding-left: 0px;
+                            margin-top: 20px;
+                            
+                         }
+            
+}
+
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px) 
+    and (-webkit-min-device-pixel-ratio: 3.5) 
+    and (orientation: Landscape){ 
+
+        header {
+    
+            height: 120vh;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+          
+          
+          }
+          
+               
+                .banner-image{
+                    position: relative;
+                    bottom: 60px;
+                    right: 30px;
+                   
+                    height: 5%;
+                  width: 280px;
+                  margin-left: 9%;
+                  margin-top: 2px;
+                  border-radius: 20px;
+                  
+                  }
+        
+                  .mil-innovation{
+        
+                    margin-left: 8.3%;
+                    margin-right: 8.3%;
+                    margin-top: 80px;
+                    font-weight: bold;
+               text-justify: center;
+                    font-size: 15px;
+                    line-height: 25px;
+                     
+                    
+                    }
+                    .images, .images3{
+                        align-items: center;
+                           align-self: center;
+                          margin-top:10%;
+                          position: relative;
+                       right: 50px;
+                         
+                        }
+    
+                        .img{
+                            margin-top: -13px;
+                        }
+    
+                        .images2{
+                            align-items: center;
+                               align-self: center;
+                              margin-top:10%;
+                             margin-left: 45px;
+                             width: 77%;
+                             
+                            }
+    
+                            
+    
+                        .devops{
+                            font-family: Manrope;
+                        font-size: 30px;
+                        font-style: normal;
+                       
+                        padding-right: 0px;
+                        padding-left: 0px;
+                       
+                        }
+
+                        .devs{
+                            padding-right: -30px;
+                        padding-left: 0px;
+                        z-index: 3;
+                        
+                           
                         }
     
                         /*footer begins here */
@@ -447,12 +537,17 @@
                      
                     
                     }
-                    .images{
+                    .images, .images3{
                         align-items: center;
                            align-self: center;
                           margin-top:10%;
                          margin-left: 0px;
                          
+                        }
+
+                        .images2{
+                            width: 100%;
+                            margin-left: 0px;
                         }
     
                         .devops{
@@ -491,6 +586,8 @@ and (device-height: 640px) and
       
            
             .banner-image{
+                position: relative;
+                bottom: 30px;
                 height: 280px;
               width: 270px;
               margin-left: 8.3%;
@@ -511,6 +608,9 @@ and (device-height: 640px) and
                  
                 
                 }
+
+
+               
                 .images{
                     align-items: center;
                        align-self: center;
@@ -563,7 +663,8 @@ and (device-height: 640px) and
 @media only screen 
 and (min-device-width: 540px) 
 and (max-device-width: 720px) 
-and (-webkit-min-device-pixel-ratio: 2) { 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: Portrait) { 
 
     header {
     
@@ -576,10 +677,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
            
             .banner-image{
                 height: 280px;
-              width: 399px;
+              width: 999px;
               margin-left: 8.3%;
               margin-top: 4px;
               border-radius: 20px;
+              border-image-width: 30px;
+            
               
               }
     
@@ -595,20 +698,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
                  
                 
                 }
-                .images{
+                .images, .images3{
                     align-items: center;
                        align-self: center;
                       margin-top:10%;
-                     margin-left: 105px;
+                    position: relative;
+                    left: 60px;
                      
                     }
-
+.images2{
+    width: 20%;
+}
                     .devops{
                         font-family: Manrope;
                     font-size: 30px;
                     font-style: normal;
-                    padding-right: 294px;
+                    padding-right: 7694px;
                     padding-left: 0px;
+                    
                     
                     }
 
@@ -626,11 +733,33 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* pixel 2l */
 
 @media screen 
-  and (device-width: 412px) 
+  and (device-width: 411px) 
   and (device-height: 823px) 
   and (-webkit-device-pixel-ratio: 3.5) 
-  and (orientation: portrait) {
+  and (orientation: Portrait) {
 
+
+    .banner-image{
+        height: 280px;
+      width: 619px;
+      margin-left: 9.3%;
+      margin-top: 4px;
+      border-radius: 20px;
+      
+      }
+
+      .mil-innovation{
+    
+        margin-left: 8.9%;
+        margin-right: 8.3%;
+        margin-top: 80px;
+        font-weight: bold;
+    text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+         
+        
+        }
     .images{
         align-items: center;
            align-self: center;
@@ -643,7 +772,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
             font-family: Manrope;
         font-size: 30px;
         font-style: normal;
-        padding-right: 504px;
+        padding-right: 604px;
         padding-left: 0px;
         
         }
@@ -652,7 +781,62 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 
 
+@media only screen 
+and (min-device-width: 411px) 
+and (max-device-width: 823px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: Landscape){
 
+    header{
+        height: 210vh;
+    }
+
+
+    .banner-image{
+        position: relative;
+        bottom: 60px;
+        height: 280px;
+      width: 619px;
+      margin-left: 9.3%;
+      margin-top: 4px;
+      border-radius: 20px;
+      
+      }
+
+      .mil-innovation{
+    
+        margin-left: 8.9%;
+        margin-right: 8.3%;
+        margin-top: 80px;
+        font-weight: bold;
+    text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+         
+        
+        }
+    .images, .images3{
+        align-items: center;
+           align-self: center;
+          margin-top:10%;
+         margin-left: 5px;
+         
+        }
+
+        .images2{
+            width: 100%;
+            margin-left: 5px;
+        }
+
+        .devops{
+            font-family: Manrope;
+        font-size: 30px;
+        font-style: normal;
+        padding-right: 34px;
+        padding-left: 0px;
+        
+        }
+  }
 
 
 
@@ -673,6 +857,169 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
 }
 
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: Landscape) { 
+
+    header {
+    
+        height: 210vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+        
+      }
+
+      .banner-image{
+        height: 280px;
+        position: relative;
+        bottom: 90px;
+      width: 620px;
+      margin-left: 8.3%;
+      margin-top: 10px;
+      border-radius: 20px;
+      
+      }
+
+      .mil-innovation{
+    
+        margin-left: 8.3%;
+        margin-right: 8.3%;
+        margin-top: 80px;
+        font-weight: bold;
+   text-justify: center;
+        font-size: 18px;
+        line-height: 25px;
+         
+        
+        }
+
+        .images, .images3{
+            align-items: center;
+               align-self: center;
+              margin-top:10%;
+             margin-left: 5px;
+             
+            }
+    
+            .img{
+                margin-top: -13px;
+            }
+    
+            .images2{
+                align-items: center;
+                   align-self: center;
+                  margin-top:10%;
+                 margin-left: 5px;
+                 width: 100%;
+                 
+                }
+    
+               
+            .devops{
+                font-family: Manrope;
+            font-size: 30px;
+            font-style: normal;
+            padding-right: 10px;
+            padding-left: 0px;
+            
+            }
+    
+}
+
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .banner-image{
+        height: 280px;
+      width: 400px;
+      margin-left: 8.3%;
+      margin-top: 10px;
+      border-radius: 20px;
+      
+      }
+}
+
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: Landscape) { 
+
+    header {
+    
+        height: 900px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+      
+      
+      }
+      .mil-innovation{
+    
+        margin-left: 8.3%;
+        margin-right: 8.3%;
+        margin-top: 80px;
+        font-weight: bold;
+   text-justify: center;
+        font-size: 18px;
+        line-height: 25px;
+         
+        
+        }
+    .banner-image{
+        position: relative;
+        bottom: 70px;
+        height: 100%;
+      width: 580px;
+      margin-left: 8.3%;
+      margin-bottom: 900px;
+      border-radius: 20px;
+      
+      }
+
+      .images, .images3{
+        align-items: center;
+           align-self: center;
+          margin-top:10%;
+         margin-left: 185px;
+         
+        }
+
+        .img{
+            margin-top: -13px;
+        }
+
+        .images2{
+            align-items: center;
+               align-self: center;
+              margin-top:10%;
+             margin-left: 145px;
+             width: 40%;
+             
+            }
+
+           
+        .devops{
+            font-family: Manrope;
+        font-size: 30px;
+        font-style: normal;
+        padding-right: 390px;
+        padding-left: 0px;
+        
+        }
+
+        /*footer begins here */
+        .copyright-menu li {
+            display: inline-block;
+            padding-left: 0px;
+            margin-top: 20px;
+            
+         }
+
+}
 
   /* ======================= iphone 6 7 8 ========================= */
 
@@ -746,6 +1093,84 @@ and (-webkit-min-device-pixel-ratio: 2) {
                     font-size: 30px;
                     font-style: normal;
                     padding-right: 90px;
+                    padding-left: 0px;
+                    
+                    }
+
+                    /*footer begins here */
+                    .copyright-menu li {
+                        display: inline-block;
+                        padding-left: 0px;
+                        margin-top: 20px;
+                        
+                     }
+        
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: Landscape) { 
+
+
+    header {
+    
+        height: 900px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 30% 100%, 0% 93%);
+      
+      
+      }
+      
+           
+            .banner-image{
+                height: 280px;
+              width: 490px;
+              margin-left: 9%;
+              margin-top: 10px;
+              border-radius: 20px;
+              
+              }
+    
+              .mil-innovation{
+    
+                margin-left: 8.3%;
+                margin-right: 8.3%;
+                margin-top: 80px;
+                font-weight: bold;
+           text-justify: center;
+                font-size: 15px;
+                line-height: 25px;
+                 
+                
+                }
+                .images, .images3{
+                    align-items: center;
+                       align-self: center;
+                      margin-top:10%;
+                     margin-left: 185px;
+                     
+                    }
+
+                    .img{
+                        margin-top: -13px;
+                    }
+
+                    .images2{
+                        align-items: center;
+                           align-self: center;
+                          margin-top:10%;
+                         margin-left: 145px;
+                         width: 40%;
+                         
+                        }
+
+                       
+                    .devops{
+                        font-family: Manrope;
+                    font-size: 30px;
+                    font-style: normal;
+                    padding-right: 390px;
                     padding-left: 0px;
                     
                     }
