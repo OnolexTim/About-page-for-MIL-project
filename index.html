@@ -69,7 +69,7 @@
          <!---banner image-->
         </div>
         <div>
-          <img src="img/img1.png" alt="" class="banner-image"  >
+          <img src="img/img1.png" alt="" width="100%" height= "100%" class="banner-image d-flex justify-content-center align-item-center"  >
         </div>
       </div>
       
@@ -255,7 +255,7 @@
 <!-- End Copyright -->
 <!-- Back to top -->
 <div id="back-to-top" class="back-to-top">
-    <button class="btn btn-dark" title="Back to Top" style="display: block;">
+    <button class="btn btn-dark" title="Back to Top" style="display: block;" id="backTop" >
         <i class="fa fa-angle-up"></i>
     </button>
 </div>
@@ -278,7 +278,20 @@
 <script src="js/classie.js"></script>
 <script src="js/uisearch.js"></script>
 <script>
-  new UISearch( document.getElementById( 'sb-search' ) );
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $('#backTop').fadeIn();
+        }else{
+            $('#backTop').fadeOut();
+        }
+    });
+    $('#backTop').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+  
 </script>
 <script src="menu.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js"></script> 
